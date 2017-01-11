@@ -11,19 +11,19 @@ This is a requirement for both ZAP and the vulnerable web application-bodgeit.
 
 The BodgeIt Store is a vulnerable web application which is currently aimed at people who are new to penentration testing.
 
-1.Clone the repo `https://github.com/psiinon/bodgeit`
+1. Clone the repo `https://github.com/psiinon/bodgeit`
 
-2.install a servlet engine, like tomcat
+2. install a servlet engine, like tomcat
 
-3.`brew install tomcat`
+3. `brew install tomcat`
 
-4.Change the port from 8080 to 9999 `/usr/local/Cellar/tomcat/8.5.9/libexec/conf/server.xml` to change 8080 to 9999
+4. Change the port from 8080 to 9999 `/usr/local/Cellar/tomcat/8.5.9/libexec/conf/server.xml` to change 8080 to 9999
 
-5.`mv /usr/local/Cellar/tomcat/8.5.9/libexec/webapps/ROOT /usr/local/Cellar/tomcat/8.5.9/libexec/webapps/ROOT.bak`
+5. `mv /usr/local/Cellar/tomcat/8.5.9/libexec/webapps/ROOT /usr/local/Cellar/tomcat/8.5.9/libexec/webapps/ROOT.bak`
 
-6.`cp -r /Users/yangxuemin/REA-1form/Workshops/bodgeit-master/root /usr/local/Cellar/tomcat/8.5.9/libexec/webapps/ROOT`
+6. `cp -r /Users/yangxuemin/REA-1form/Workshops/bodgeit-master/root /usr/local/Cellar/tomcat/8.5.9/libexec/webapps/ROOT`
 
-7.`cd /usr/local/Cellar/tomcat/8.5.9/libexec` * `./bin/startup.sh`
+7. `cd /usr/local/Cellar/tomcat/8.5.9/libexec` * `./bin/startup.sh`
 
 ## ZAP install
 `https://github.com/zaproxy/zaproxy/wiki/Downloads`
