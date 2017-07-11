@@ -21,7 +21,7 @@ The BodgeIt Store is a vulnerable web application which is currently aimed at pe
 
 5. `mv /usr/local/Cellar/tomcat/8.5.9/libexec/webapps/ROOT /usr/local/Cellar/tomcat/8.5.9/libexec/webapps/ROOT.bak`
 
-6. `cp -r /Users/yangxuemin/REA-1form/Workshops/bodgeit-master/root /usr/local/Cellar/tomcat/8.5.9/libexec/webapps/ROOT`
+6. `cp -r /Users/jizhou/REA-1form/Workshops/bodgeit-master/root /usr/local/Cellar/tomcat/8.5.9/libexec/webapps/ROOT`
 
 7. `cd /usr/local/Cellar/tomcat/8.5.9/libexec` * `./bin/startup.sh`
 
